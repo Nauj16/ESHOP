@@ -1,7 +1,129 @@
-h3 {
-    color: red;
+* {
+    font-family: 'Roboto', sans-serif; 
 }
 
-span {
-    color: blue;
+body {
+    background-color: #242424;
+}
+
+.nav {
+    background-color: #141414;
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: -15px;
+    top: -15px;
+    width: 100%;
+    height: 120px;
+    border: solid .5px white;
+    box-shadow: 3px 3px 5px orange;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav__ul {
+    position: relative;
+    left: 7em;
+    top: 1.3em;
+    display: inline-block;
+}
+
+.nav__li {
+    list-style: none;
+    padding: 18px;
+    display: inline-block;
+    font-weight:300;
+    font-size: 20px;
+    
+}
+
+.nav__li:hover {
+    list-style: none;
+    padding: 18px;
+    display: inline-block;
+    font-weight:300;
+    font-size: 20px;
+    text-shadow: .5px .5px 5px orange;   
+}
+
+
+.buscador {
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    width: 300px;
+    height: 30px;
+
+}
+
+.titulo {
+    position: absolute;
+    z-index: 100;
+    color: white; 
+    font-size: 20px;
+    text-shadow: .5px .5px 5px orange;
+}
+
+.seccion {
+    color: white;
+    background-color: #525151;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    text-align: center;
+    border: solid 1px white;
+    box-sizing: content-box;
+    border-top: solid 1px white;
+    box-shadow: 1px 1px 5px orange;
+    transform: scale(.9, .9);
+    transition: .2s;
+}
+
+.seccion:hover {
+    color: white;
+    background-color: #525151;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    text-align: center;
+    border: solid 1px white;
+    box-sizing: content-box;
+    border-top: solid 1px white;
+    box-shadow: 2px 2px 6px orange;
+    transform:scale(1, 1);
+    transition: .2s;
+
+}
+
+
+.subtitulo {
+    background-color: #5e5d5d;
+    padding: 20px;
+    position: relative;
+    top: -18px;
+}  
+
+.titulo-secciones {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    left: 50px;
+    top: -50px;
+    background-color: rgb(34, 34, 34);
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    z-index: -1;
+    border: solid 1px white;
+    box-shadow: 2px 2px 5px orange;
+    text-align: center;
 }
