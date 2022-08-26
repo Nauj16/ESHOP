@@ -6,17 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eShop</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="encabezado">
-        <img src="IMAGENES/OFFICIAL-LOGO-III.png " alt="logo" class="logo"> 
+    <header>
+        <div class="contenedor_logo">
+            <a href="#" class="contenedor_logo-link">
+                <img src="IMAGENES/OFFICIAL-LOGO-III.png" class="contenedor_logo-img">
+            </a>
+        </div>
+        <div class="contenedor_busqueda">
+            <div class="contenedor_busqueda-contenedor_buscador">
+                <div class="contenedor_buscador-contenedor_img">
+                    <img src="IMAGENES/header/lupa.png" class="contenedor_buscador-img">
+                </div>
+                <div class="contenedor_buscador-contenedor_input">
+                    <input type="text" placeholder="Busca aqui..." class="contenedor_buscador-input">
+                </div>
+            </div>
+        </div>
+        <div class="contenedor_user">
+            <button class="contenedor_user-iniciar-sesion">Iniciar sesion</button>
+        </div>
+        <div class="contenedor_carrito">
+            <img src="IMAGENES/header/carrito.png" class="contenedor_carrito-img">
+        </div>
     </header>
-    <main>      <!--Al agregar contenido al main, el footer se posicionara abajo sin problemas.-->
+    <nav>
+        <div class="contenedor_barra-lateral">
+
+        </div>
+    </nav>
+    <!-- <main>
         <span>Contenido</span>
-    </main>
+    </main> -->
     <footer class="pie">
         <div>
             <small class="subtitulo-redes-sociales">Visita nuestras redes sociales</small>
